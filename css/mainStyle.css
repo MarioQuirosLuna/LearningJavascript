@@ -1,0 +1,69 @@
+:root{
+    --yellow: #F0E24B;
+    --background: rgba(0,0,0,.8);
+    --background-litgh: rgba(0,0,0,.5);
+}
+*{
+    border: 0;
+    margin: 0;
+}
+
+#header{
+    width: 100%;
+    height: 5em;
+    background: var(--yellow);
+    position: fixed;
+    z-index: 999;
+}
+
+#nav-menu-burger{
+    position: fixed;
+    z-index: 999;
+    font-size: 3em;
+    padding: 0 0.3em;
+    cursor: pointer;
+    border-radius: 20%;
+    background: var(--yellow);
+    margin: 0.3em;
+}
+
+#nav-menu{
+    margin-top: 5em;
+    z-index: 999;
+    transition: 0.5s;
+    width: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--background);
+}
+
+#nav-menu li{
+    padding: 3em 0;
+    font-size: 1.5em;
+    list-style: none;
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+#content{
+    padding: 6em 0;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#container-clock{
+    width: 30%;
+    height: 10em;
+    background: var(--yellow);
+    border-radius: 0.25em;
+}
+
+.titleClock{
+    background: var(--background);
+    color: white;
+    border-radius: 0.25em;
+}
