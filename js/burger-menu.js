@@ -21,6 +21,13 @@ $(function() {
     let section4 = $('#sectionFour').offset().top;
     let section5 = $('#sectionFive').offset().top;
 
+    window.addEventListener("resize", () => {
+        section1 = $('#sectionOne').offset().top;
+        section2 = $('#sectionTwo').offset().top;
+        section3 = $('#sectionThree').offset().top;
+        section4 = $('#sectionFour').offset().top;
+        section5 = $('#sectionFive').offset().top;
+    });
 
     $('#section1').on('click',(e)=>{
         e.preventDefault();

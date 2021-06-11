@@ -16,6 +16,18 @@
     z-index: 999;
 }
 
+#content{
+    padding: 6em 0;
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Burger Menu */
+
 #nav-menu-burger{
     position: fixed;
     z-index: 999;
@@ -45,15 +57,7 @@
     color: var(--yellow);
 }
 
-#content{
-    padding: 6em 0;
-}
-
-.section{
-    width: 100%;
-    min-height: 100vh;
-    text-align: center;
-}
+/* Clock */
 
 #container-clock{
     width: 30%;
@@ -66,4 +70,20 @@
     background: var(--background);
     color: white;
     border-radius: 0.25em;
+}
+
+/* Keyboart Events */
+
+#stage{
+    display: flex;
+    min-height: 50vh;
+    background-color: var(--background);
+}
+
+#ball{
+    margin: auto;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    background-color: coral;
 }
