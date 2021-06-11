@@ -1,4 +1,5 @@
 $(function() {
+    //  Clock implementation
     const btnStart = $("#button-start");
     const btnStop = $("#button-stop");
     const divClocks = $("#clock");

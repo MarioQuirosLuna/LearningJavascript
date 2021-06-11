@@ -1,4 +1,5 @@
 $(function() {
+    // Burger burger implementation
     const burgerMenu = document.getElementById('nav-menu-burger');
     const itemsMenu = document.getElementById('nav-menu');
     var visibilityMenu = false;
