@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Javascript</title>
+    <title>Learning Javascript</title>
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/mainStyle.css">
@@ -16,7 +16,7 @@
             <ul>
                 <li id="section1">Clock</li>
                 <li id="section2">Keyboard Events</li>
-                <li id="section3">Section3</li>
+                <li id="section3">Count Down</li>
                 <li id="section4">Section4</li>
                 <li id="section5">Section5</li>
             </ul>
@@ -25,7 +25,7 @@
     <div id="content">
         <section id="sectionOne" class="section m-0 row justify-content-center">
             <div id="container-clock" class="p-4 text-center">
-                <div class="titleClock">
+                <div class="titleSection">
                     <h2>Clock</h2>
                 </div>
                 <div id="clock"></div>
@@ -50,8 +50,13 @@
                 </article>
             </div>
         </section>
-        <section id="sectionThree" class="section">
-            <h2>Section3</h2>
+        <section id="sectionThree" class="section m-0 row justify-content-center">
+            <div class="container-countdown p-4 text-center">
+                <div class="titleSection">
+                    <h2>Count Down</h2>
+                </div>
+                <div id="countdown"></div>
+            </div>
         </section>
         <section id="sectionFour" class="section">
             <h2>Section4</h2>
@@ -64,6 +69,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/clock.js"></script>
-    <script src="js/keyboart.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
 </html>
